@@ -1,6 +1,6 @@
 # 🐟 Mercury Concentrations in Resident Lake Fish from Lake Clark National Park and Preserve
 
-
+Data analysis project exploring mercury concentrations in resident lake fish from Lake Clark National Park and Preserve using R.
 
 ---
 
@@ -153,14 +153,14 @@ ggplot(processed_data, aes(x = weight, y = total_hg, color = Species)) +
 
 ---
 
-# Act
+# 🛡️ Act
 ## Summary of Key Findings
 - Mercury concentrations vary by lake, with **Lake Clark** showing higher average levels than Kijik Lake.
 - Among species, **Lake trout** exhibited the highest mercury concentration on average.
 - There may be slight **temporal variation** between 2019 and 2020, but more data is needed to confirm trends.
 - A **positive relationship** appears between fish weight and mercury concentration, particularly in lake trout.
 
-## Recommendations
+# 🧩 Recommendations
 1. **Prioritize species** for further study and potential public health advisories due to elevated mercury concentrations.
 2. **Share findings** to National Park Service ecologists, fisheries biologists, and public health officials to inform conservation and safety strategies.
 3. **Expand future monitoring** to other lakes within the SWAN region and include more years to strengthen trend analysis.
