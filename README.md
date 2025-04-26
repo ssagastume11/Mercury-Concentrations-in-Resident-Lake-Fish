@@ -117,6 +117,7 @@ summary_stats_species
 ---
 
 ## 📤 Share
+
 ![Plot Mercury by Lake](https://github.com/ssagastume11/Mercury-Concentrations-in-Resident-Lake-Fish/blob/main/plot_mercury_by_lake.png)
 ```{r}
 # Plot: Mercury concentration by lake
@@ -127,7 +128,8 @@ ggplot(processed_data, aes(x = Lake, y = total_hg)) +
        y = "Total Mercury (ppm)",
        caption = "Source: SWAN Mercury Monitoring Dataset, catalog.data.gov")
 ```
-![Plot Mercury by Species]()
+
+![Plot Mercury by Species](https://github.com/ssagastume11/Mercury-Concentrations-in-Resident-Lake-Fish/blob/main/plot_mercury_by_species_v2.png)
 ```{r}
 # Plot: Mercury concentration by species
 ggplot(processed_data, aes(x = Species, y = total_hg)) +
@@ -138,6 +140,7 @@ ggplot(processed_data, aes(x = Species, y = total_hg)) +
        caption = "Source: SWAN Mercury Monitoring Dataset, catalog.data.gov")
 ```
 
+![Plot Mercury by Species](https://github.com/ssagastume11/Mercury-Concentrations-in-Resident-Lake-Fish/blob/main/plot_mercury_by_species_v2.png)
 ```{r}
 # Optional: Relationship between mercury and weight
 ggplot(processed_data, aes(x = weight, y = total_hg, color = Species)) +
