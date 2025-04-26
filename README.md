@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Mercury Concentrations in Resident Lake Fish
-=======
 # 🐟 Mercury Concentrations in Resident Lake Fish from Lake Clark National Park and Preserve
+
+
 
 ---
 
@@ -140,7 +139,7 @@ ggplot(processed_data, aes(x = Species, y = total_hg)) +
        caption = "Source: SWAN Mercury Monitoring Dataset, catalog.data.gov")
 ```
 
-![Plot Mercury by Species](https://github.com/ssagastume11/Mercury-Concentrations-in-Resident-Lake-Fish/blob/main/plot_mercury_by_species_v2.png)
+![Plot Mercury vs. Fish Weight by Species](https://github.com/ssagastume11/Mercury-Concentrations-in-Resident-Lake-Fish/blob/main/plot_mercury_vs_weight_species_v2.png)
 ```{r}
 # Optional: Relationship between mercury and weight
 ggplot(processed_data, aes(x = weight, y = total_hg, color = Species)) +
@@ -151,3 +150,23 @@ ggplot(processed_data, aes(x = weight, y = total_hg, color = Species)) +
        y = "Total Mercury (ppm)",
        caption = "Source: SWAN Mercury Monitoring Dataset, catalog.data.gov")
 ```
+
+---
+
+# Act
+## Summary of Key Findings
+- Mercury concentrations vary by lake, with **Lake Clark** showing higher average levels than Kijik Lake.
+- Among species, **Lake trout** exhibited the highest mercury concentration on average.
+- There may be slight **temporal variation** between 2019 and 2020, but more data is needed to confirm trends.
+- A **positive relationship** appears between fish weight and mercury concentration, particularly in lake trout.
+
+## Recommendations
+1. **Prioritize species** for further study and potential public health advisories due to elevated mercury concentrations.
+2. **Share findings** to National Park Service ecologists, fisheries biologists, and public health officials to inform conservation and safety strategies.
+3. **Expand future monitoring** to other lakes within the SWAN region and include more years to strengthen trend analysis.
+4. **Educate local communities** and park visitors about mercury exposure and safe fish consumption practices.
+
+---
+
+### 🔗 Data Source
+[Mercury Concentrations in Fish from Lake Clark National Park and Preserve (LACL) (2019 - 2020) – catalog.data.gov](https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre)
